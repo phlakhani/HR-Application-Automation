@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level__c</fullName>
+    <description>Level of position for the hire</description>
+    <externalId>false</externalId>
+    <label>Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Solution Associate</fullName>
+                <default>false</default>
+                <label>Solution Associate</label>
+            </value>
+            <value>
+                <fullName>Solution Developer</fullName>
+                <default>false</default>
+                <label>Solution Developer</label>
+            </value>
+            <value>
+                <fullName>Solution Designer</fullName>
+                <default>false</default>
+                <label>Solution Designer</label>
+            </value>
+            <value>
+                <fullName>Senior Solution Designer</fullName>
+                <default>false</default>
+                <label>Senior Solution Designer</label>
+            </value>
+            <value>
+                <fullName>Solution Architect</fullName>
+                <default>false</default>
+                <label>Solution Architect</label>
+            </value>
+            <value>
+                <fullName>Senior consultant</fullName>
+                <default>false</default>
+                <label>Senior consultant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

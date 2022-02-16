@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Any_Agency_Fee__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>check if any agecy fee is associated with hiring of the candidate</description>
+    <externalId>false</externalId>
+    <label>Any Agency Fee</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

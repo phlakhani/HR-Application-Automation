@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubmitApproval</fullName>
+    <availability>online</availability>
+    <description>button to Submit approval from case record</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Send Application for Approval</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/ApproveHRApplication?CaseRecordID={!Case.Id}</url>
+</WebLink>
